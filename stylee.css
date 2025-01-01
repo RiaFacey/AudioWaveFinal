@@ -48,7 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    box-sizing: border-box;
+    
 }
 
 header ul {
@@ -71,8 +71,8 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background: #000000;
-    color: #f8f7f7;
+    background-color: #e61e1e;
+    color: #2b0f72;
 }
 
 
@@ -124,7 +124,7 @@ header ul li a:hover {
 .container .sidenav .logo:hover i,
 .container .sidenav .Menu ul li:hover  a,
 .container .sidenav .Menu ul li:hover  i{
-    color:#000000ee
+    color:#a3a3a349
 }
 
 .container .sidenav .Menu h5{
@@ -175,7 +175,7 @@ header ul li a:hover {
 }
 
 .container .sidenav .playing .bottom{
-    background-color: #9c9c9c;
+    background-color: #1a1a1a9b;
     border-radius: 0 0 6px 6px;
     padding: 8px;
     display: flex;
@@ -186,7 +186,8 @@ header ul li a:hover {
 }
 
 .container .sidenav .playing .top{
-    background-color: #9c9c9c;
+    color:  #9c9c9c;
+    background-color: #1a1a1a9b;
     border-radius: 6px 6px 0 0;
     padding: 10px;
     display: flex;
@@ -197,6 +198,7 @@ header ul li a:hover {
 
 .container .sidenav .playing .bottom i,
 .container .sidenav .playing .bottom p{
-    color:rgba(0, 0, 0, 0.808)
+    color:#9c9c9c
 }
+
 
