@@ -3,10 +3,13 @@
     font-weight: 200;
 }
 html,body{
-    background: linear-gradient(#383945, #010101);
+    background: linear-gradient(#27272e, #010101);
     margin: 0;
     padding:0;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
     
 }
 
@@ -40,58 +43,46 @@ img {
 /*header styling*/
 
 header {
-    position:fixed;
-    top: 0;
-    left: 150px;
+    position:absolute;
+    top: 50px;
+    left: px;
     width: 100%;
-    padding: 36px 100px;
-    display: flex;
+    padding: 0px 100px;
     justify-content: space-between;
-    align-items: center; 
-    
 }
 
-header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header ul li{
-    list-style: none;
-    margin-left: 20px;
-    
-}
-
-header ul li a {
-    border-radius: 20px;
+header .AudioWave {
+    color: #9c9c9c;
+    font-weight: 10;
     text-decoration: none;
-    padding: 6px 15px;
-    color: #000000;
+    font-size:xx-large;
+    text-transform:none;
+    letter-spacing: 3px;
+    z-index: 15;
+    margin-left: 530px;
+    align-items:normal;
+    justify-content: center;
+    
 }
-
-header ul li a:hover {
-    background-color: #e61e1e;
-    color: #2b0f72;
-}
-
-
 
 .nav{
     overflow: hidden;
     background-color:none;
+   
   }
 .nav input[type=text] {
-    float:left;
     border:none;
     outline: none;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 11px;
-    width: 200px;
-    margin-right: 100px;
-    background-color: rgb(144, 144, 151)
+    width: 250px;
+    margin-left:  500px;
+    color: white;
+    background-color: rgb(56, 56, 63)
 }  
+
+
 /*container+sidenav-styling*/
 .container {
     width: 100%;
@@ -135,6 +126,7 @@ header ul li a:hover {
 
 .container .sidenav .Menu ul{
     color: #9c9c9c;
+
 }
 
 .container .sidenav .Menu ul li{
@@ -148,7 +140,7 @@ header ul li a:hover {
 
 .container .sidenav .Menu ul li a{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: none;
     transition:all 0.3s ease;
 }
 
@@ -160,7 +152,8 @@ header ul li a:hover {
 .container .sidenav .logo{
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 7px;
+
 }
 
 .container .sidenav .logo > i{
@@ -170,8 +163,11 @@ header ul li a:hover {
 }
 
 .container .sidenav .logo a{
-    font-weight: bold;
+    font-weight: none;
     transition: all 0.3s ease;
+    font-weight: 10;
+    text-decoration: none;
+    text-transform: none;
 }
 
 .container .sidenav .playing .bottom{
@@ -192,7 +188,7 @@ header ul li a:hover {
     padding: 10px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 19px;
     font-size: 13px;
 }
 
