@@ -44,11 +44,12 @@ img {
 
 header {
     position:absolute;
-    top: 50px;
+    top: 20px;
     left: px;
     width: 100%;
     padding: 0px 100px;
     justify-content: space-between;
+
 }
 
 header .AudioWave {
@@ -76,8 +77,8 @@ header .AudioWave {
     padding: 10px;
     border-radius: 15px;
     font-size: 11px;
-    width: 250px;
-    margin-left:  500px;
+    width: 290px;
+    margin-left:  475px;
     color: white;
     background-color: rgb(56, 56, 63)
 }  
@@ -92,7 +93,7 @@ header .AudioWave {
 
 .container .sidenav{
     height: 100vh;
-    background-color: #18181d25;
+    background-color: #50505525;
     padding:20px 36px;
     display:flex;
     flex-direction: column;
@@ -122,6 +123,7 @@ header .AudioWave {
     color: #9c9c9c;
     margin-bottom: 12px;
     text-transform:uppercase;
+
 }
 
 .container .sidenav .Menu ul{
@@ -133,7 +135,7 @@ header .AudioWave {
     margin-bottom: 12px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     cursor:pointer;
 }
 
@@ -142,11 +144,6 @@ header .AudioWave {
     font-size: 14px;
     font-weight: none;
     transition:all 0.3s ease;
-}
-
-.container .sidenav .playing .top img{
-    width: 36px;
-    height: 36px;
 }
 
 .container .sidenav .logo{
@@ -160,6 +157,7 @@ header .AudioWave {
     font-size: 25px;
     transition: all 0.3s ease;
     
+    
 }
 
 .container .sidenav .logo a{
@@ -167,34 +165,83 @@ header .AudioWave {
     transition: all 0.3s ease;
     font-weight: 10;
     text-decoration: none;
+    padding: 10px;
     text-transform: none;
 }
 
-.container .sidenav .playing .bottom{
-    background-color: #1a1a1a9b;
-    border-radius: 0 0 6px 6px;
-    padding: 8px;
+/*Middle styling*/
+
+.container main .trending {
+    margin-top: 40px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    color: #9c9c9c;
+
+}
+
+.container main .trending img {
+    width: 160px;
+    height: 160px;
+    display: flex;
+}
+
+.container main .trending img:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(8, 8, 8, 0.705);
+}
+
+.container main .trending .middle .details .buttons {
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 6px;
-    font-size: 12px;
+    gap: 16px;
+    
+
 }
 
-.container .sidenav .playing .top{
-    color:  #9c9c9c;
-    background-color: #1a1a1a9b;
-    border-radius: 6px 6px 0 0;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 19px;
-    font-size: 13px;
-}
+.container main .trending .middle .details .buttons i {
+    color: #9c9c9c;
+    border-radius: 50%;
+    padding: 2px;
 
-.container .sidenav .playing .bottom i,
-.container .sidenav .playing .bottom p{
-    color:#9c9c9c
 }
 
 
+.container main .trending .middle .details .buttons button {
+    cursor: pointer;
+    padding: 6px 20px;
+    background-color: #38363a;
+    border-radius: 10px;
+    color: #9c9c9c;
+    font-weight: 600;
+    border:none;
+
+}
+
+.container main .trending .middle .details {
+    margin-top: 60px;
+    padding: 26px;
+    
+}
+
+.container main .trending .middle .details h1 {
+    font-size: 35px;
+    margin-bottom: 8px;
+    font-weight: 10;
+    text-decoration: none;
+
+}
+.container main .trending .middle .details h5,
+.container main .trending .middle .details h3 {
+    display:table-row;
+    font-weight: 10;
+    text-decoration: none;
+
+}
+
+.container main .trending .middle .details h3 {
+    margin-left: 12px;
+    color: #9c9c9c;
+    
+}
